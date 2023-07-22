@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> forms in html</title>
+    <style>
+textarea{
+    background-color: red;color: rgb(252, 216, 13)
+}
+#name:hover{border-color: darkgreen;
+
+
+}
+</style>
+    <!-- /* <link rel="stylesheet" href="style.css"> */ -->
+</head> 
+<body style="margin-left: 150px; background-image: url(form.jpg);  background-repeat: no-repeat; background-size: cover;color: white;"> <link rel="stylesheet" href="style.css">
+   <form action="">  
+    <fieldset> <legend style="font-size: 18px;color: coral;">Student's Data</legend>
+<label for="name">Student Name:-</label>
+<input type="text" placeholder="Enter student name" style="width: 130px; margin-top: 30px;" id="name" size="15" maxlength="20" required > <br><br>
+<label for="roll no" style="margin-left: 20px ;margin-top: 30px;">Roll no:-</label>
+<input type="text" placeholder="Enter roll no" style="width: 130px;margin-left: 23px;"id="roll no" size="10" maxlength="10" required><br><br>
+<label for="">Enter your E-mail:-</label>
+<input type="email" placeholder="Enter E-mail" required  ><br><br>
+<label for="">Enter date of birth:-</label>
+<input type="date" required  ><br>
+ 
+<span style="color: darkcyan;font-size: 20px;">class</span>  <br>
+
+<input type="radio" name="class" required >
+<label for="">class 9</label> <br>
+<input type="radio" name="class" required>
+<label for="">class 10</label> <br>
+<span style="color: darkcyan;font-size: 20px;">subjects </span><br>
+<input type="checkbox">
+<label for="">English</label><br>
+<input type="checkbox">
+<label for="">Urdu</label><br>
+<input type="checkbox">
+<label for="">Mathematics</label><br>
+<input type="checkbox">
+<label for="">Physics</label><br>
+<input type="checkbox">
+<label for="">Chemistry</label><br>
+<input type="checkbox">
+<label for="">Islamiyat</label><br>
+<input type="checkbox">
+<label for="">Ethics</label><br>
+<input type="checkbox">
+<label for="">Pakstudies</label><br>
+<input type="checkbox">
+<label for="">Biology</label><br>
+<input type="checkbox">
+<label for="">Computer</label><br>
+<input type="checkbox">
+<label for="">HOME economics</label><br>
+<input type="checkbox">
+<label for="">Islamic study</label><br>
+ <span style="color: darkcyan;font-size: 20px;"> Select your favorite subject</span> <br>
+<select name="fav subject" id="">
+<option value="English">English</option>
+<option value="Maths">Maths</option>
+<option value="Physics"selected >Physics</option>
+<option value="Chemistry">Chemistry</option>
+<option value="Computer">Computer</option>
+
+</select> <br><br>
+<span style="color: darkcyan;font-size: 20px;">why you are joining this community?</span><br><br>
+<textarea name="comments" id="" cols="30" rows="20">Enter comments here!</textarea> <br><br>
+ 
+
+<input type="submit"  style="background-color: green;color: white;margin-left: 250px;">
+</fieldset>
+</form>
+</body>
+</html>
